@@ -1,0 +1,80 @@
+.container{
+    padding: 10px;
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.count{
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: firebrick;
+    font-style: italic;
+    font-weight: 600;
+    height: 20px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.incrementBtn{
+    padding: 10px 20px;
+    background-color: #1bc72c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.decrementBtn{
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.resetContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.resetBtn{
+    padding: 0px 20px;
+    background-color: transparent;
+    color: rgb(23, 22, 22);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: underline;
+}
